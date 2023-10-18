@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 64px;
+    font-size: 48px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.container{
+    margin-top: 32px;
+    width: 100%;
+    max-width: 720px;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+    font-size: 24px;
+}
+
+.itens{
+    display: flex;
+    justify-content: space-between;
+    max-width: 720px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+label{
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+input{
+    font-size: 16px;
+}
+
+button{
+    padding: 4px 96px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px black solid;
+}
+
+button:hover{
+    padding: 4px 96px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 2px black solid;
+    cursor: pointer;
+}

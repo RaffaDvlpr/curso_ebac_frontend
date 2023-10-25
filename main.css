@@ -1,0 +1,13 @@
+body{
+    padding-top: 32px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+h2{
+    margin-bottom: 16px;
+}
+
+input{
+    margin-bottom: 16px;
+}
